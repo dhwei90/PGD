@@ -14,7 +14,7 @@
 ROOTDIR  = $(shell pwd)
 OPSYS    = $(shell uname -s )
 
-OPENMP_LIB ?= 1
+OPENMP_LIB ?= 0
 
 all: pgd
 
